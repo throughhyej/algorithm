@@ -3,7 +3,6 @@ package basic.algorithm;
 import java.util.Scanner;
 
 public class Exchange {
-
 /*
     // 방식 1
     public void exchange() {
