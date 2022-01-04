@@ -1,10 +1,13 @@
-import basic.algorithm.PrintOdd;
+import basic.algorithm.AddAndSubtraction;
 
 public class Main {
     public static void main(String[] args) {
 
+        // AddAndSubtraction.java
+        new AddAndSubtraction().addAndSubtraction();
+
         // PrintOdd.java
-        new PrintOdd().printOdd();
+        // new PrintOdd().printOdd();
 
         // Distinguish.java
         // new Distinguish().distinguish();
