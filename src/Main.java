@@ -1,10 +1,13 @@
-import basic.algorithm.Distinguish;
+import basic.algorithm.PrintOdd;
 
 public class Main {
     public static void main(String[] args) {
 
+        // PrintOdd.java
+        new PrintOdd().printOdd();
+
         // Distinguish.java
-        new Distinguish().distinguish();
+        // new Distinguish().distinguish();
 
         // Payment.java
         // new Payment().getPaymentFile();
