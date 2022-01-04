@@ -1,10 +1,13 @@
-import basic.algorithm.Average;
+import basic.algorithm.GetScore;
 
 public class Main {
     public static void main(String[] args) {
 
+        // GetScore.java
+        new GetScore().getScore();
+
         // Average.java
-        new Average().average();
+        // new Average().average();
 
         // AddAndSubtraction.java
         // new AddAndSubtraction().addAndSubtraction();
