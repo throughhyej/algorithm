@@ -4,10 +4,9 @@ import java.util.Scanner;
 
 public class GetScore {
     public void getScore() {
-        int cnt = 10;
-        int[][] scoreInfo = new int[2][cnt];
+        int[][] scoreInfo = new int[2][10];
 
-        for (int i=0; i<cnt; i++) {
+        for (int i=0; i<scoreInfo[0].length; i++) {
             scoreInfo[0][i] = (i+1); // 번호
             scoreInfo[1][i] = (i+1) * 10; // 점수
         }
@@ -16,7 +15,7 @@ public class GetScore {
         System.out.print("## 몇 번의 점수가 궁금한가요? ");
         int bunho = scan.nextInt();
 
-        for (int i=0; i<cnt; i++) {
+        for (int i=0; i<scoreInfo[0].length; i++) {
             if (scoreInfo[0][i] == bunho) System.out.printf("%d의 점수: %d", bunho, scoreInfo[1][i]);
         }
 
