@@ -1,10 +1,13 @@
-import basic.algorithm.AddAndSubtraction;
+import basic.algorithm.Average;
 
 public class Main {
     public static void main(String[] args) {
 
+        // Average.java
+        new Average().average();
+
         // AddAndSubtraction.java
-        new AddAndSubtraction().addAndSubtraction();
+        // new AddAndSubtraction().addAndSubtraction();
 
         // PrintOdd.java
         // new PrintOdd().printOdd();
