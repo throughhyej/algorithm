@@ -1,10 +1,13 @@
-import basic.algorithm.Payment;
+import basic.algorithm.Distinguish;
 
 public class Main {
     public static void main(String[] args) {
 
+        // Distinguish.java
+        new Distinguish().distinguish();
+
         // Payment.java
-        new Payment().getPaymentFile();
+        // new Payment().getPaymentFile();
 
         // Exchange.java
         // new Exchange().exchange(); // 방식 1
