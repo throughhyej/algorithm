@@ -61,28 +61,28 @@ public class LinkListStack {
     }
 
 
-    public static void main(String[] args) {
-        LinkListStack list = new LinkListStack(); // first = null
-
-        list.insert(1, 100);
-        list.insert(2, 200);
-        list.insert(3, 300);
-        list.insert(4, 400);
-        list.insert(5, 500);
-
-        list.printList();
-        System.out.println("=====================================================");
-
-        while (!list.isEmpty()) {
-            Link deleteLink = list.delete();
-            System.out.print("deleted: " );
-            deleteLink.printLink();
-            System.out.println("");
-        }
-
-        System.out.println("=====================================================");
-        list.printList();
-
-    }
+//    public static void main(String[] args) {
+//        LinkListStack list = new LinkListStack(); // first = null
+//
+//        list.insert(1, 100);
+//        list.insert(2, 200);
+//        list.insert(3, 300);
+//        list.insert(4, 400);
+//        list.insert(5, 500);
+//
+//        list.printList();
+//        System.out.println("=====================================================");
+//
+//        while (!list.isEmpty()) {
+//            Link deleteLink = list.delete();
+//            System.out.print("deleted: " );
+//            deleteLink.printLink();
+//            System.out.println("");
+//        }
+//
+//        System.out.println("=====================================================");
+//        list.printList();
+//
+//    }
 
 }
