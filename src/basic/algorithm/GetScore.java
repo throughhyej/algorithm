@@ -30,4 +30,9 @@ public class GetScore {
         }
      */
     }
+
+//    public static void main(String[] args) {
+//        new GetScore().getScore();
+//    }
+
 }

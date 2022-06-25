@@ -19,4 +19,9 @@ public class Average {
         int avg = total / cnt;
         System.out.printf("## avg : %d", avg);
     }
+
+//    public static void main(String[] args) {
+//        new Average().average();
+//    }
+
 }

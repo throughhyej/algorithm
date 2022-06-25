@@ -22,4 +22,9 @@ public class Calculation {
         System.out.println("## 합 " + sum );
         System.out.println("## 평균 " + sum / num );
     }
+
+//    public static void main(String[] args) {
+//        new Calculation().calculation();
+//    }
+
 }

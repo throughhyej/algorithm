@@ -13,4 +13,8 @@ public class PrintOdd {
             if (i % 10 == 0) System.out.println();
         }
     }
+
+//    public static void main(String[] args) {
+//        new PrintOdd().printOdd();
+//    }
 }

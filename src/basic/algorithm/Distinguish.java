@@ -16,4 +16,8 @@ public class Distinguish {
 
         System.out.println("### result > " + result);
     }
+
+//    public static void main(String[] args) {
+//        new Distinguish().distinguish();
+//    }
 }

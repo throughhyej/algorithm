@@ -22,4 +22,10 @@ public class Sum {
     private void output() {
         System.out.printf("홀수 합: %d, 짝수 합: %d\n", oddSum, evenSum);
     }
+
+//    public static void main(String[] args) {
+//        new Sum().sum();
+//    }
+
+
 }
