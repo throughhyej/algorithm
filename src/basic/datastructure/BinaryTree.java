@@ -36,6 +36,11 @@ public class BinaryTree {
         }
 
         public Object get(int key) {
+//            System.out.println("### topNode.itsKey > " + topNode.itsKey);
+//            System.out.println("### treeNodes.length > " + topNode.treeNodes.length);
+//            for (int i=0; i<topNode.treeNodes.length; i++) {
+//                System.out.println("### node > " + i + " :: " + topNode.treeNodes[i]);
+//            }
             return topNode == null ? null : topNode.find(key);
         }
     }
@@ -52,11 +57,7 @@ public class BinaryTree {
 
         public Object find (int key) {
             if (key == itsKey) return itsValue;
-            else {
-                Object sub = findSub(selectSubNode(key), key);
-                System.out.println("sub.toString() = " + sub.toString());
-                return sub;
-            }
+            return findSub(selectSubNode(key), key);
         }
 
         private int selectSubNode(int key) {
@@ -64,6 +65,9 @@ public class BinaryTree {
         }
 
         private Object findSub(int node, int key) {
+//            if (node == 0) System.out.println("### node 0 key > " + key);
+//            if (node == 1) System.out.println("### node 1 key > " + key);
+
             return treeNodes[node] == null ? null : treeNodes[node].find(key);
         }
 
@@ -73,6 +77,7 @@ public class BinaryTree {
         }
 
         private void SubNode(int node, int key, Object value) {
+            System.out.println("### node > " + node + " || " + key);
             if (treeNodes[node] == null) treeNodes[node] = new TreeNode(key, value);
             else treeNodes[node].add(key, value);
         }
