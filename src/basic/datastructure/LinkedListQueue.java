@@ -27,8 +27,8 @@ public class LinkedListQueue {
 
     }
 
-    public static void main(String[] args) {
-        new LinkedListQueue().processQueue();
-    }
+//    public static void main(String[] args) {
+//        new LinkedListQueue().processQueue();
+//    }
 
 }
